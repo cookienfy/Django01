@@ -23,6 +23,8 @@ def detail(request, Id):
 
 def results(request, Id):
     response = "You're looking at the results of question %s."
+
+
     return HttpResponse(response % Id)
 
 
